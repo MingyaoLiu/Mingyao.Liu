@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "prodbuild": "tsc prodserver.ts | ng build --prod",
+    "prodbuild": "tsc prodserver.ts | ng build --prod | nodemon prodserver.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
